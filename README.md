@@ -8,6 +8,9 @@
 ### Abstract 
 *We present a simple and effective approach to explore both local spatial-temporal contexts and non-local temporal information for video deblurring. First, we develop an effective spatial-temporal contextual transformer to explore local spatialtemporal contexts from videos. As the features extracted by the spatial-temporal contextual transformer does not model the nonlocal temporal information of video well, we then develop a feature propagation method to aggregate useful features from the long-range frames so that both local spatial-temporal contexts and non-local temporal information can be better utilized for video deblurring. Finally, we formulate the spatial-temporal contextual transformer with the feature propagation into a unified deep convolutional neural network (CNN) and train it in an end-to-end manner. We show that using the spatial-temporal contextual transformer with the feature propagation is able to generate useful features and makes the deep CNN model more compact and effective for video deblurring. Extensive  experimental results show that the proposed method performs favorably against state-of-the-art ones on the benchmark datasets in terms of accuracy and model parameters.*
 
+## Demo Video
+
+### Demo wiht visualization on the DVD dataset of the model (Input,  Ours and RVRT from left to right)
 
 ### Requirements
 > - Python 3.8, PyTorch >= 1.11
@@ -29,15 +32,15 @@ You can also refer to this [INSTALL.md](https://github.com/XPixelGroup/BasicSR/b
 ### Training
 Run the following commands for training:
 ```
-# train STCT on BSD dataset
+# train STCT on the BSD dataset
 python basicsr/train.py -opt options/train/Deblur/train_Deblur_BSD.yml
-# train STCT on DVD dataset
+# train STCT on the DVD dataset
 python basicsr/train.py -opt options/train/Deblur/train_Deblur_DVD.yml
-# train STCT on GOPRO dataset
+# train STCT on the GOPRO dataset
 python basicsr/train.py -opt options/train/Deblur/train_Deblur_GOPRO.yml
-# train STCT on REAL dataset
+# train STCT on the REAL dataset
 python basicsr/train.py -opt options/train/Deblur/train_Deblur_REAL.yml
-# train STCT on REDS dataset
+# train STCT on the REDS dataset
 python basicsr/train.py -opt options/train/Deblur/train_Deblur_REDS.yml
 ```
 ### Testing 
@@ -45,15 +48,15 @@ python basicsr/train.py -opt options/train/Deblur/train_Deblur_REDS.yml
 - Download the testing dataset.
 - Run the following commands:
 ```
-# test STCT on BSD dataset
+# test STCT on the BSD dataset
 python basicsr/test.py -opt options/train/Deblur/train_Deblur_BSD.yml
-# test STCT on DVD dataset
+# test STCT on the DVD dataset
 python basicsr/test.py -opt options/train/Deblur/train_Deblur_DVD.yml
-# test STCT on GOPRO dataset
+# test STCT on the GOPRO dataset
 python basicsr/test.py -opt options/train/Deblur/train_Deblur_GOPRO.yml
-# test STCT on REAL dataset
+# test STCT on the REAL dataset
 python basicsr/test.py -opt options/train/Deblur/train_Deblur_REAL.yml
-# test STCT on REDS dataset
+# test STCT on the REDS dataset
 python basicsr/test.py -opt options/train/Deblur/train_Deblur_REDS.yml
 ```
 - The test results will be in './results'.
