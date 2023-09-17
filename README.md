@@ -2,7 +2,7 @@
 [Liyan Zhang], [Boming Xu](https://github.com/xuboming8), [Jinshan Pan](https://jspan.github.io/)
 
 <p align="center">
-  <img width="800" src=".src/figs/framework.png">
+  <img width="800" src="./src/figs/framework.png">
 </p>
 
 ### Abstract 
