@@ -11,6 +11,7 @@
 ## Demo Video
 
 ### Demo wiht visualization on the DVD dataset of the model (Input,  Ours and RVRT from left to right)
+https://github.com/yzb1997/STCT/blob/main/src/video/DVD.mp4
 
 ### Requirements
 > - Python 3.8, PyTorch >= 1.11
@@ -68,7 +69,7 @@ python basicsr/test.py -opt options/train/Deblur/train_Deblur_REDS.yml
 | :----- |:-----: |:-----: |
 | BI-Efficient SR | [Google Drive](https://drive.google.com/drive/folders/12O_xgwfgc76DsYbiClYnl6ErCDrsi_S9?usp=share_link)/[Baidu Netdisk](https://pan.baidu.com/s/1mKXahFifHaF14pc1pBWFOg) with code: SAFM | [Google Drive](https://drive.google.com/drive/folders/1s3vJQXDACr799khLLs1ELWL-neljx5vL?usp=share_link)/[Baidu Netdisk](https://pan.baidu.com/s/17q_OuNVTgy7QhtbFu099Jg) with code: SAFM |
 | BI-Classic SR | [Google Drive](https://drive.google.com/drive/folders/12O_xgwfgc76DsYbiClYnl6ErCDrsi_S9?usp=share_link)/[Baidu Netdisk](https://pan.baidu.com/s/10jtlG-FYfB8KwYfWsQDOMA) with code: SAFM | [Google Drive](https://drive.google.com/drive/folders/1s3vJQXDACr799khLLs1ELWL-neljx5vL?usp=share_link)/[Baidu Netdisk](https://pan.baidu.com/s/1fYsZ67MNLpPs7OAS9Dn2-w) with code: SAFM |
-| x4 [Real-world](https://github.com/xinntao/Real-ESRGAN) |[Google Drive](https://drive.google.com/drive/folders/12O_xgwfgc76DsYbiClYnl6ErCDrsi_S9?usp=share_link)/[Baidu Netdisk](https://pan.baidu.com/s/10jtlG-FYfB8KwYfWsQDOMA) with code: SAFM |  | -->
+| x4 [Real-world](https://github.com/xinntao/Real-ESRGAN) |[Google Drive](https://drive.google.com/drive/folders/12O_xgwfgc76DsYbiClYnl6ErCDrsi_S9?usp=share_link)/[Baidu Netdisk](https://pan.baidu.com/s/10jtlG-FYfB8KwYfWsQDOMA) with code: SAFM |  |
 
 - **Efficient SR Results**
 <img width="800" src="./figs/efficient_sr.png">
@@ -88,7 +89,7 @@ python basicsr/test.py -opt options/train/Deblur/train_Deblur_REDS.yml
 [<img src="figs/real_figs/anime_results.png">](https://imgsli.com/MTkwMzE2/6/7) 
 
 
-<!-- ### Citation
+### Citation
 If this work is helpful for your research, please consider citing the following BibTeX entry.
 ```
 @inproceedings{
