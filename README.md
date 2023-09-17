@@ -11,7 +11,7 @@
 ## Demo Video
 
 ### Demo wiht visualization on the DVD dataset of the model (Input,  Ours and RVRT from left to right)
-https://github.com/yzb1997/STCT/blob/main/src/video/DVD.mp4
+
 
 ### Requirements
 > - Python 3.8, PyTorch >= 1.11
@@ -21,7 +21,7 @@ https://github.com/yzb1997/STCT/blob/main/src/video/DVD.mp4
 ### Installation
 ```
 # Clone the repo
-git clone https://github.com/yzb1997/STCT.git
+https://drive.google.com/drive/folders/17E157lq6ifcN0Kd1linoFzt6tQ56knUj
 # Install dependent packages
 cd STCT
 pip install -r requirements.txt
