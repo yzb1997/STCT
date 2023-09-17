@@ -12,7 +12,8 @@
 
 ### Demo wiht visualization on the DVD dataset of the model (Input,  Ours and RVRT from left to right)
 
-https://www.bilibili.com/c702d52f-b959-481a-8d28-31d9f93a6e51
+<video src="https://github.com/yzb1997/STCT/blob/main/src/video/DVD.mp4?raw=true" controls="controls">
+</video>
 
 ### Requirements
 > - Python 3.8, PyTorch >= 1.11
