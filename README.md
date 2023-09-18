@@ -64,13 +64,17 @@ python basicsr/test.py -opt options/train/Deblur/train_Deblur_REDS.yml
 ### Results
 - **Pretrained models and visual results**
 
-- **Efficient SR Results**
+- **Deblurred results on a challenging video**
+<p align="center">  
+  <img width="800" src="./src/figs/challenging.png">
+</p>
+
+- **Deblurred results on the GOPRO test dataset**
 <p align="center">
   <img width="800" src="./src/figs/GOPRO.png">
 </p>
 
-- **Classic SR Results**
-<img width="800" src="./src/figs/challenging.png">
+
 
 <!-- | Degradation | Model Zoo| Visual Results| 
 | :----- |:-----: |:-----: |
