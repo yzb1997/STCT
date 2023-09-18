@@ -10,9 +10,7 @@
 
 ## Demo Video
 
-### Demo wiht visualization on the DVD dataset of the model (Input,  Ours and RVRT from left to right)
-
-<iframe height=498 width=510 src="./src/video/DVD.mp4">
+<!-- ### Demo wiht visualization on the DVD dataset of the model (Input,  Ours and RVRT from left to right) -->
 
 ### Requirements
 > - Python 3.8, PyTorch >= 1.11
@@ -66,6 +64,14 @@ python basicsr/test.py -opt options/train/Deblur/train_Deblur_REDS.yml
 ### Results
 - **Pretrained models and visual results**
 
+- **Efficient SR Results**
+<p align="center">
+  <img width="800" src="./src/figs/GOPRO.png">
+</p>
+
+- **Classic SR Results**
+<img width="800" src="./src/figs/challenging.png">
+
 <!-- | Degradation | Model Zoo| Visual Results| 
 | :----- |:-----: |:-----: |
 | BI-Efficient SR | [Google Drive](https://drive.google.com/drive/folders/12O_xgwfgc76DsYbiClYnl6ErCDrsi_S9?usp=share_link)/[Baidu Netdisk](https://pan.baidu.com/s/1mKXahFifHaF14pc1pBWFOg) with code: SAFM | [Google Drive](https://drive.google.com/drive/folders/1s3vJQXDACr799khLLs1ELWL-neljx5vL?usp=share_link)/[Baidu Netdisk](https://pan.baidu.com/s/17q_OuNVTgy7QhtbFu099Jg) with code: SAFM |
@@ -73,7 +79,9 @@ python basicsr/test.py -opt options/train/Deblur/train_Deblur_REDS.yml
 | x4 [Real-world](https://github.com/xinntao/Real-ESRGAN) |[Google Drive](https://drive.google.com/drive/folders/12O_xgwfgc76DsYbiClYnl6ErCDrsi_S9?usp=share_link)/[Baidu Netdisk](https://pan.baidu.com/s/10jtlG-FYfB8KwYfWsQDOMA) with code: SAFM |  |
 
 - **Efficient SR Results**
-<img width="800" src="./figs/efficient_sr.png">
+<p align="center">
+  <img width="800" src="./src/figs/framework.jpg">
+</p>
 
 - **Classic SR Results**
 <img width="800" src="./figs/classic_sr.png">
