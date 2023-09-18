@@ -9,7 +9,7 @@
 *We present a simple and effective approach to explore both local spatial-temporal contexts and non-local temporal information for video deblurring. First, we develop an effective spatial-temporal contextual transformer to explore local spatialtemporal contexts from videos. As the features extracted by the spatial-temporal contextual transformer does not model the nonlocal temporal information of video well, we then develop a feature propagation method to aggregate useful features from the long-range frames so that both local spatial-temporal contexts and non-local temporal information can be better utilized for video deblurring. Finally, we formulate the spatial-temporal contextual transformer with the feature propagation into a unified deep convolutional neural network (CNN) and train it in an end-to-end manner. We show that using the spatial-temporal contextual transformer with the feature propagation is able to generate useful features and makes the deep CNN model more compact and effective for video deblurring. Extensive  experimental results show that the proposed method performs favorably against state-of-the-art ones on the benchmark datasets in terms of accuracy and model parameters.*
 
 ## Demo Video
-
+*Demo whit visualization on the DVD dataset of the model*
 
 https://github.com/yzb1997/STCT/assets/54924380/9cb6b603-3d62-4100-9904-1d32494238d5
 
