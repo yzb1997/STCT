@@ -34,7 +34,7 @@ python setup.py develop
 You can also refer to this [INSTALL.md](https://github.com/XPixelGroup/BasicSR/blob/master/docs/INSTALL.md) for installation
 
 ### Training
-- Down the SpyNet pretrained and put it in ./experiments [Google Drive](https://drive.google.com/drive/folders/10a0Szaioc-qnXZguG6sk8EELhNB_2cqZ?usp=drive_link)/[Baidu Netdisk](https://pan.baidu.com/s/1pBdrL5K1wbi5iU02NtIWgQ?pwd=44q8) 
+- Down the SpyNet pretrained and put it in './experiments' [Google Drive](https://drive.google.com/drive/folders/10a0Szaioc-qnXZguG6sk8EELhNB_2cqZ?usp=drive_link)/[Baidu Netdisk](https://pan.baidu.com/s/1pBdrL5K1wbi5iU02NtIWgQ?pwd=44q8) 
 - Run the following commands for training:
 ```
 # train STCT on the BSD dataset
