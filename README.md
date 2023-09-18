@@ -30,7 +30,8 @@ python setup.py develop
 You can also refer to this [INSTALL.md](https://github.com/XPixelGroup/BasicSR/blob/master/docs/INSTALL.md) for installation
 
 ### Training
-Run the following commands for training:
+- Down the SpyNet pretrained and put it in ./experiments [Google Drive](https://drive.google.com/drive/folders/10a0Szaioc-qnXZguG6sk8EELhNB_2cqZ?usp=drive_link)/[Baidu Netdisk](https://pan.baidu.com/s/1pBdrL5K1wbi5iU02NtIWgQ?pwd=44q8) 
+- Run the following commands for training:
 ```
 # train STCT on the BSD dataset
 python basicsr/train.py -opt options/train/Deblur/train_Deblur_BSD.yml
@@ -61,6 +62,15 @@ python basicsr/test.py -opt options/train/Deblur/train_Deblur_REDS.yml
 ```
 - The test results will be in './results'.
 
+
+| Degradation | Model Zoo| 
+| :----- |:-----: |
+| GOPRO | [Google Drive](https://drive.google.com/file/d/1R_cP48HoNduY5MvhSdyZpIxCvVjnrDGz/view?usp=drive_link)/[Baidu Netdisk](https://pan.baidu.com/s/1A-r8Ntqc7csx_07asnbIig?pwd=vurk) with code: STCT |
+| DVD | [Google Drive](https://drive.google.com/file/d/1YeyilUC5zcx62WAa5bxVVKiYG3U2pPrX/view?usp=drive_link)/[Baidu Netdisk](https://pan.baidu.com/s/1dEFC77mU5B0X-uTlIZW59A?pwd=fwge) with code: STCT | 
+| BSD | [Google Drive](https://drive.google.com/file/d/18ngyaUxUgrC_cLAYsIKQ8sMZm0ECnZ7t/view?usp=drive_link)/[Baidu Netdisk](https://pan.baidu.com/s/1Saow7aMjYkhXYTfKE1p_DA?pwd=ke59) with code: STCT |  
+
+
+
 ### Results
 - **Pretrained models and visual results**
 
@@ -74,15 +84,7 @@ python basicsr/test.py -opt options/train/Deblur/train_Deblur_REDS.yml
   <img width="800" src="./src/figs/GOPRO.png">
 </p>
 
-
-
-<!-- | Degradation | Model Zoo| Visual Results| 
-| :----- |:-----: |:-----: |
-| BI-Efficient SR | [Google Drive](https://drive.google.com/drive/folders/12O_xgwfgc76DsYbiClYnl6ErCDrsi_S9?usp=share_link)/[Baidu Netdisk](https://pan.baidu.com/s/1mKXahFifHaF14pc1pBWFOg) with code: SAFM | [Google Drive](https://drive.google.com/drive/folders/1s3vJQXDACr799khLLs1ELWL-neljx5vL?usp=share_link)/[Baidu Netdisk](https://pan.baidu.com/s/17q_OuNVTgy7QhtbFu099Jg) with code: SAFM |
-| BI-Classic SR | [Google Drive](https://drive.google.com/drive/folders/12O_xgwfgc76DsYbiClYnl6ErCDrsi_S9?usp=share_link)/[Baidu Netdisk](https://pan.baidu.com/s/10jtlG-FYfB8KwYfWsQDOMA) with code: SAFM | [Google Drive](https://drive.google.com/drive/folders/1s3vJQXDACr799khLLs1ELWL-neljx5vL?usp=share_link)/[Baidu Netdisk](https://pan.baidu.com/s/1fYsZ67MNLpPs7OAS9Dn2-w) with code: SAFM |
-| x4 [Real-world](https://github.com/xinntao/Real-ESRGAN) |[Google Drive](https://drive.google.com/drive/folders/12O_xgwfgc76DsYbiClYnl6ErCDrsi_S9?usp=share_link)/[Baidu Netdisk](https://pan.baidu.com/s/10jtlG-FYfB8KwYfWsQDOMA) with code: SAFM |  |
-
-- **Efficient SR Results**
+<!-- - **Efficient SR Results**
 <p align="center">
   <img width="800" src="./src/figs/framework.jpg">
 </p>
@@ -90,7 +92,7 @@ python basicsr/test.py -opt options/train/Deblur/train_Deblur_REDS.yml
 - **Classic SR Results**
 <img width="800" src="./figs/classic_sr.png">
 
-- **Real-world SR Results**
+- **Real-world SR Results** 
 
 |Real-World Image (x4)|Real-ESRGAN  |SwinIR     | SAFMN (ours)|
 |       :---          |     :---:   |  :-----:  |  :-----:    |        
@@ -107,8 +109,8 @@ If this work is helpful for your research, please consider citing the following 
 ```
 @inproceedings{
     
- }
- ``` -->
+ } -->
+ ```
 
 
 ### Acknowledgement
