@@ -39,15 +39,16 @@ You can also refer to this [INSTALL.md](https://github.com/XPixelGroup/BasicSR/b
 ```
 # train STCT on the BSD dataset
 python basicsr/train.py -opt options/train/Deblur/train_Deblur_BSD.yml
+
 # train STCT on the DVD dataset
 python basicsr/train.py -opt options/train/Deblur/train_Deblur_DVD.yml
+
 # train STCT on the GOPRO dataset
 python basicsr/train.py -opt options/train/Deblur/train_Deblur_GOPRO.yml
+
 # train STCT on the REAL dataset
-
-
-
 python basicsr/train.py -opt options/train/Deblur/train_Deblur_REAL.yml
+
 # train STCT on the REDS dataset
 python basicsr/train.py -opt options/train/Deblur/train_Deblur_REDS.yml
 ```
@@ -58,12 +59,16 @@ python basicsr/train.py -opt options/train/Deblur/train_Deblur_REDS.yml
 ```
 # test STCT on the BSD dataset
 python basicsr/test.py -opt options/train/Deblur/train_Deblur_BSD.yml
+
 # test STCT on the DVD dataset
 python basicsr/test.py -opt options/train/Deblur/train_Deblur_DVD.yml
+
 # test STCT on the GOPRO dataset
 python basicsr/test.py -opt options/train/Deblur/train_Deblur_GOPRO.yml
+
 # test STCT on the REAL dataset
 python basicsr/test.py -opt options/train/Deblur/train_Deblur_REAL.yml
+
 # test STCT on the REDS dataset
 python basicsr/test.py -opt options/train/Deblur/train_Deblur_REDS.yml
 ```
