@@ -132,4 +132,4 @@ If this work is helpful for your research, please consider citing the following 
 
 ### Acknowledgement
 This code is based on [BasicSR](https://github.com/XPixelGroup/BasicSR) toolbox. Thanks for the awesome work.
-Please contact Liyan Zhang, [Boming Xu](https://github.com/xuboming8), [Jinshan Pan](https://jspan.github.io/) if there is any issues.
+Please contact [Liyan Zhang](https://faculty.nuaa.edu.cn/zhangliyan/en/index/169476/list/index.htm), [Boming Xu](https://github.com/xuboming8), [Jinshan Pan](https://jspan.github.io/) if there is any issues.
