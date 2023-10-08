@@ -1,5 +1,5 @@
 # Deblurring Videos Using Spatial-Temporal Contextual Transformer with Feature Propagation
-Liyan Zhang, [Boming Xu](https://github.com/xuboming8), [Jinshan Pan](https://jspan.github.io/)
+[Liyan Zhang](https://faculty.nuaa.edu.cn/zhangliyan/en/index/169476/list/index.htm), [Boming Xu](https://github.com/xuboming8), [Jinshan Pan](https://jspan.github.io/)
 
 <p align="center">
   <img width="800" src="./src/figs/framework.jpg">
