@@ -59,6 +59,16 @@ python basicsr/train.py -opt options/train/Deblur/train_Deblur_REDS.yml
 ```
 ### Testing 
 - Download the pretrained models.
+
+
+| Degradation | Model Zoo| 
+| :----- |:-----: |
+| GOPRO | [Google Drive](https://drive.google.com/file/d/1R_cP48HoNduY5MvhSdyZpIxCvVjnrDGz/view?usp=drive_link)/[Baidu Netdisk](https://pan.baidu.com/s/1A-r8Ntqc7csx_07asnbIig?pwd=vurk) with code: STCT |
+| DVD | [Google Drive](https://drive.google.com/file/d/1YeyilUC5zcx62WAa5bxVVKiYG3U2pPrX/view?usp=drive_link)/[Baidu Netdisk](https://pan.baidu.com/s/1dEFC77mU5B0X-uTlIZW59A?pwd=fwge) with code: STCT | 
+| BSD | [Google Drive](https://drive.google.com/file/d/18ngyaUxUgrC_cLAYsIKQ8sMZm0ECnZ7t/view?usp=drive_link)/[Baidu Netdisk](https://pan.baidu.com/s/1Saow7aMjYkhXYTfKE1p_DA?pwd=ke59) with code: STCT |  
+
+
+
 - Download the testing dataset.
 - Run the following commands:
 ```
@@ -78,14 +88,6 @@ python basicsr/test.py -opt options/train/Deblur/train_Deblur_REAL.yml
 python basicsr/test.py -opt options/train/Deblur/train_Deblur_REDS.yml
 ```
 - The test results will be in './results'.
-
-
-| Degradation | Model Zoo| 
-| :----- |:-----: |
-| GOPRO | [Google Drive](https://drive.google.com/file/d/1R_cP48HoNduY5MvhSdyZpIxCvVjnrDGz/view?usp=drive_link)/[Baidu Netdisk](https://pan.baidu.com/s/1A-r8Ntqc7csx_07asnbIig?pwd=vurk) with code: STCT |
-| DVD | [Google Drive](https://drive.google.com/file/d/1YeyilUC5zcx62WAa5bxVVKiYG3U2pPrX/view?usp=drive_link)/[Baidu Netdisk](https://pan.baidu.com/s/1dEFC77mU5B0X-uTlIZW59A?pwd=fwge) with code: STCT | 
-| BSD | [Google Drive](https://drive.google.com/file/d/18ngyaUxUgrC_cLAYsIKQ8sMZm0ECnZ7t/view?usp=drive_link)/[Baidu Netdisk](https://pan.baidu.com/s/1Saow7aMjYkhXYTfKE1p_DA?pwd=ke59) with code: STCT |  
-
 
 
 ### Results
