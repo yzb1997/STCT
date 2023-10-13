@@ -101,34 +101,6 @@ python basicsr/test.py -opt options/train/Deblur/train_Deblur_REDS.yml
   <img width="800" src="./src/figs/GOPRO.png">
 </p>
 
-<!-- - **Efficient SR Results**
-<p align="center">
-  <img width="800" src="./src/figs/framework.jpg">
-</p>
-
-- **Classic SR Results**
-<img width="800" src="./figs/classic_sr.png">
-
-- **Real-world SR Results** 
-
-|Real-World Image (x4)|Real-ESRGAN  |SwinIR     | SAFMN (ours)|
-|       :---          |     :---:   |  :-----:  |  :-----:    |        
-| <img width="350" src="figs/real_figs/five_golden_flowers_02.png">|<img width="350" src="figs/real_figs/five_golden_flowers_02_realESRGAN.png">|<img width="350" src="figs/real_figs/five_golden_flowers_02_SwinIR.png">|<img width="350" src="figs/real_figs/five_golden_flowers_02_SAFMN.png">
-| <img width="350" src="figs/real_figs/five_golden_flowers_01.png">|<img width="350" src="figs/real_figs/five_golden_flowers_01_realESRGAN.png">|<img width="350" src="figs/real_figs/five_golden_flowers_01_SwinIR.png">|<img width="350" src="figs/real_figs/five_golden_flowers_01_SAFMN.png">
-| <img width="350" src="figs/real_figs/kobe_curry.png">|<img width="350" src="figs/real_figs/kobe_curry_realESRGAN.png">|<img width="350" src="figs/real_figs/kobe_curry_SwinIR.png">|<img width="350" src="figs/real_figs/kobe_curry_SAFMN.png">
-| <img width="350" src="figs/real_figs/little_carp.png">|<img width="350" src="figs/real_figs/little_carp_realESRGAN.png">|<img width="350" src="figs/real_figs/little_carp_SwinIR.png">|<img width="350" src="figs/real_figs/little_carp_SAFMN.png">
-
-[<img src="figs/real_figs/anime_results.png">](https://imgsli.com/MTkwMzE2/6/7) 
-
-
-### Citation
-If this work is helpful for your research, please consider citing the following BibTeX entry.
-```
-@inproceedings{
-    
- }
- ``` -->
-
 
 ### Acknowledgement
 This code is based on [BasicSR](https://github.com/XPixelGroup/BasicSR) toolbox. Thanks for the awesome work.
